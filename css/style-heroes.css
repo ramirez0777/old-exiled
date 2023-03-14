@@ -1,0 +1,40 @@
+.hero-wrap
+{
+	padding: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	display:-webkit-flex
+}
+
+label
+{
+	margin: 10px;
+	width: 18%;
+	position: relative;
+	/* border: 1px dashed green; */
+}
+
+label > img
+{
+	height: 100%;
+	width: 100%;
+	
+}
+
+label > input
+{
+	position: absolute;
+	top: 0px;
+}
+
+.selected
+{
+	border: 5px solid black;
+	border-radius: 9px;
+}
+
+.sub
+{
+	padding: 20px;
+}

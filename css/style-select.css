@@ -1,0 +1,26 @@
+.starter-wrap
+{
+	display:-webkit-flex;
+	display: flex;
+	justify-content: center;
+	padding: 50px;
+}
+
+.card-wrap
+{
+	position: relative;
+	width: 30%;
+	margin: 10px;
+}
+
+.card-wrap > img
+{
+	width: 100%;
+	
+}
+
+.card-wrap > .checkbox
+{
+	position: absolute;
+	top: 0;
+}

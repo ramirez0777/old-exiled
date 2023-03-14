@@ -1,0 +1,177 @@
+main
+{
+	display: flex;
+	justify-content: center;
+}
+
+.grave > img
+{
+	width: 40%;
+
+		
+}
+
+.card-cover > img
+{
+	width: 100%;
+	height: 100%;
+}
+
+.champion-wrap, .support-wrap
+{
+	display: flex;
+	justify-content: center;
+	/* border: 1px solid red; */
+	width: 100%;
+
+	
+	margin: 0 auto;
+}
+
+/* .support1-wrap, .support2-wrap */
+/* { */
+	/* width: 100%;  */
+	/* height: 100%; */
+	/* border: 5px solid black; */
+/* } */
+
+.champion-wrap > div > img, .support-wrap > div > img
+{
+	width: 300px;
+	height: 100%;
+}
+
+
+.champion-wrap > img, .support-wrap > img
+{
+	width: 25%;
+}
+
+.support-wrap > img
+{
+	padding: 5px;
+
+}
+
+.support-wrap, .champion-wrap
+{
+	width:100%;
+	/* margin-bottom: 40px; */
+	height: 100%;
+	background-color: blue;
+}
+
+.deck-wrap
+{
+	display: flex;
+	justify-content: center;
+	/* border: 5px solid white; */
+	/* bottom: 0; */
+
+}
+
+.card-cover
+{
+	margin: 10px;
+	display: inline-block;
+
+	width: 20%;
+}
+
+.grave
+{
+	background-image: url(../img/gy.png);
+	overflow: hidden;
+	background-size: 500px 150px;
+	/* border: 5px solid red; */
+}
+
+/*This class is for the holders of the fields*/
+.size
+{
+	width: 300px;
+	height: 400px;
+	background-color: red;
+	
+	margin: 10px;
+	
+}
+
+.size1
+{
+	height: 150px;
+}
+
+.size1 > img
+{
+	/* height: 150px; */
+	width: 40%;
+	opacity: .5;
+}
+
+.front-wrap
+{
+	/* border: 2px solid green; */
+}
+
+.left-wrap, .right-wrap
+{
+	height: 100%;
+	width: 50%;
+	/* border: 2px solid blue; */
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.legend > img
+{
+	width: 62%;
+}
+
+.number, .bane, .damage
+{
+	width: 5%;
+	height: 5%;
+	border-radius: 50%;
+	text-align: center;
+}
+
+.damage
+{
+	background-color: salmon;
+	color: white;
+}
+
+.bane
+{
+	background-color: black;
+	color: white;
+	height: 20px;
+	width: 20px;
+}
+
+.submit
+{
+	padding: 25px;
+	width: 20%;
+	height: 15%;
+	margin: 15 auto;
+	background-color: white;
+	border: 1px solid black;
+	text-align: center;
+}
+
+.opponent
+{
+	margin: 30px auto 0 auto;
+	background-image: url(../img/main.png);
+	width: 80%;
+	height: 100%;
+}
+
+.opponent > img, .opponent > h4
+{
+	height: 200px;
+	display: inline;
+}

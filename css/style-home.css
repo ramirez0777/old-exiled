@@ -1,0 +1,77 @@
+*
+{
+	margin: 0;	padding: 0;	box-sizing: border-box;
+}
+
+body
+{
+	background-image: url(../img/bg.png);
+	/* background-color: black; */
+}
+
+main
+{
+}
+
+label
+{
+	
+}
+
+.hide
+{
+	display: none;
+}
+
+.legend-wrap, .legend-wrap-zoom
+{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+
+}
+
+.legend, .sub
+{
+	padding: 20px;
+	width: 21.8%;
+	/* margin: 0 auto; */ 	
+}
+
+.start
+{
+	width: 100%;
+	height: 100vh;
+}
+
+.sub
+{
+	width: 100%;
+	height: 100%
+}
+
+.legend-selected
+{
+	border-radius: 9px;
+	border: 10px solid black;
+}
+
+.legend > img
+{
+	width: 100%;
+}
+
+/* .zoom > span */
+/* { */
+
+	/* background-color: white; */
+	/* cursor: pointer; */
+	/* padding: 10px; */
+/* } */
+
+/* .zoom */
+/* { */
+	/* position: sticky; */
+	/* top: 0; */
+
+/* } */

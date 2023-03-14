@@ -1,0 +1,45 @@
+{
+	"player1deck" : 
+	{
+		"one" : "3",
+		"two" : "4",
+		"three" : "8"
+	},
+	
+	"player1field" : 
+	{
+		"champion" : null,
+		"support1" : null,
+		"support2" : null,
+		"championdamage" : "0",
+		"support1damage" : "0",
+		"support2damage" : "0",
+		"championbane" : "0",
+		"support1bane" : "0",
+		"support2bane" : "0"
+	},
+	
+	"player1legend" : "dark",
+	
+	"player2deck" : 
+	{
+		"one" : "3",
+		"two" : "4",
+		"three" : "8"
+	},
+	
+	"player2field" : 
+	{
+		"champion" : null,
+		"support1" : null,
+		"support2" : null,
+		"championdamage" : "0",
+		"support1damage" : "0",
+		"support2damage" : "0",
+		"championbane" : "0",
+		"support1bane" : "0",
+		"support2bane" : "0"
+	},
+	
+	"player2legend" : "light"
+}
